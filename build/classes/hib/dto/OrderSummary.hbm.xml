@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.dto">
+    
+    <class name="OrderSummary" table="menutable">
+      <id name="userId" column="userid"/> 
+      <property name="itmName" column="itemname"/>
+      <property name="totalItem" column="totalitem"/>
+      <property name="payment" column="payment"/>
+      
+    </class>
+      
+    </hibernate-mapping>

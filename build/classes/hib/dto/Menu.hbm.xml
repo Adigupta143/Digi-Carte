@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.dto">
+    
+    <class name="Menu" table="menutable1234">
+      <id name="foodid" column="foodid"/> 
+       <property name="foodName" column="foodName"/>
+      <property name="description" column="description"/>
+      <property name="Category" column="category"/>
+      <property name="Price" column="price"/>
+      <property name="offer" column="offer"/>
+      <property name="quantity" column="quantity"/>
+       
+     
+      
+    </class>
+      
+    </hibernate-mapping>
